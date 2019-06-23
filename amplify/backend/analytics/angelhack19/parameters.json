@@ -1,0 +1,20 @@
+{
+    "appName": "angelhack19",
+    "roleName": "pinpointLambdaRolec92412d7",
+    "cloudWatchPolicyName": "cloudWatchPolicyc92412d7",
+    "pinpointPolicyName": "pinpointPolicyc92412d7",
+    "authPolicyName": "pinpoint_amplify_c92412d7",
+    "unauthPolicyName": "pinpoint_amplify_c92412d7",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "angelhack19-dev-20190622162956-authRole",
+            "UnauthRoleArn": "arn:aws:iam::770949714422:role/angelhack19-dev-20190622162956-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::770949714422:role/angelhack19-dev-20190622162956-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "angelhack19-dev-20190622162956-deployment",
+            "UnauthRoleName": "angelhack19-dev-20190622162956-unauthRole",
+            "StackName": "angelhack19-dev-20190622162956",
+            "StackId": "arn:aws:cloudformation:us-east-1:770949714422:stack/angelhack19-dev-20190622162956/4d409fa0-94d0-11e9-892e-0e1ffe4de6a4"
+        },
+        "categories": {
+            "auth": {
+                "cognito4f2e1549": {}
+            }
+        }
+    }
+}

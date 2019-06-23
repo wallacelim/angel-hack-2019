@@ -1,0 +1,21 @@
+{
+  "name": "angelhack19",
+  "version": "1.0.0",
+  "description": "Amplify JavaScript Example",
+  "dependencies": {
+    "amplify": "0.0.11",
+    "aws-amplify": "^1.1.29",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack"
+  }
+}

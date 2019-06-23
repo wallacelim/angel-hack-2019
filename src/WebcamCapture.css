@@ -1,0 +1,23 @@
+div.container-fluid.camera {
+  display: block;
+  margin: auto;
+  height: 480px; }
+
+div.container-fluid.scan-btn {
+  height: 226px;
+  align-items: center;
+  padding-top: 0px;
+  display: block;
+  margin: auto;
+  padding-top: 68px; }
+
+.btn.btn-lg.scan {
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  background-color: #57C4D3;
+  color: white;
+  font-size: 40px;
+  text-align: center; }
+
+/*# sourceMappingURL=webcamcapture.css.map */
